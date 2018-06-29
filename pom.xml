@@ -210,6 +210,8 @@
         <org.bouncycastle.bcprov-jdk15on>1.59</org.bouncycastle.bcprov-jdk15on>
         <org.bouncycastle.bcpkix-jdk15on>1.59</org.bouncycastle.bcpkix-jdk15on>
 
+    <!-- Spark plugin dependencies -->
+        <spark.ranger.plugin.version>0.6.3</spark.ranger.plugin.version>
     </properties>
     <profiles>
         <profile>
