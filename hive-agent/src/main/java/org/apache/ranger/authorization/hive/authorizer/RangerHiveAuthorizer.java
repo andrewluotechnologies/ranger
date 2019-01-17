@@ -2468,6 +2468,7 @@ public class RangerHiveAuthorizer extends RangerHiveAuthorizerBase {
 		}
 		return new ArrayList<String>();
 	}
+
 	private StringBuilder toString(List<HivePrivilegeObject> privObjs, StringBuilder sb) {
 		if(privObjs != null && privObjs.size() > 0) {
 			toString(privObjs.get(0), sb);
