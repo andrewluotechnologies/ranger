@@ -109,6 +109,8 @@ public class RangerHiveAuthorizer extends RangerHiveAuthorizerBase {
 		RESERVED_ROLE_NAMES = Collections.unmodifiableSet(roleNames);
 	}
 
+	private boolean isForwardedAddressesMethodAvailable = true;
+
 	public RangerHiveAuthorizer(HiveMetastoreClientFactory metastoreClientFactory,
 								  HiveConf                   hiveConf,
 								  HiveAuthenticationProvider hiveAuthenticator,
